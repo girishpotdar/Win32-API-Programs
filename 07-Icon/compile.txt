@@ -1,0 +1,51 @@
+C:\MyProjects\01-Win32\07-Icon>cl.exe /c /EHsc Window.cpp
+Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30038.1 for x86
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+Window.cpp
+
+C:\MyProjects\01-Win32\07-Icon>dir
+ Volume in drive C is WINDOWS
+ Volume Serial Number is D4A9-C67F
+
+ Directory of C:\MyProjects\01-Win32\07-Icon
+
+07/14/2021  11:50 PM    <DIR>          .
+07/14/2021  11:50 PM    <DIR>          ..
+07/14/2021  11:52 PM            86,910 win.ico
+07/14/2021  11:49 PM             1,801 Window.cpp
+07/14/2021  11:45 PM                24 Window.h
+07/14/2021  11:53 PM             1,983 Window.obj
+07/14/2021  11:45 PM                66 Window.rc
+               5 File(s)         90,784 bytes
+               2 Dir(s)  178,395,078,656 bytes free
+
+C:\MyProjects\01-Win32\07-Icon>rc.exe Window.rc
+Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+C:\MyProjects\01-Win32\07-Icon>dir
+ Volume in drive C is WINDOWS
+ Volume Serial Number is D4A9-C67F
+
+ Directory of C:\MyProjects\01-Win32\07-Icon
+
+07/14/2021  11:59 PM    <DIR>          .
+07/14/2021  11:59 PM    <DIR>          ..
+07/14/2021  11:59 PM               974 compile.text
+07/14/2021  11:52 PM            86,910 win.ico
+07/14/2021  11:49 PM             1,801 Window.cpp
+07/14/2021  11:45 PM                24 Window.h
+07/14/2021  11:53 PM             1,983 Window.obj
+07/14/2021  11:45 PM                66 Window.rc
+07/14/2021  11:58 PM            87,244 Window.res
+               7 File(s)        179,002 bytes
+               2 Dir(s)  178,399,961,088 bytes free
+			   
+
+C:\MyProjects\01-Win32\07-Icon>link.exe Window.obj Window.res user32.lib gdi32.lib
+Microsoft (R) Incremental Linker Version 14.29.30038.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+C:\MyProjects\01-Win32\07-Icon>
