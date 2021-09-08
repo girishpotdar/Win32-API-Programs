@@ -1,0 +1,285 @@
+Microsoft (R) COFF/PE Dumper Version 14.29.30038.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file Window.obj
+
+File Type: COFF OBJECT
+
+FILE HEADER VALUES
+             14C machine (x86)
+               5 number of sections
+        6112B030 time date stamp Tue Aug 10 22:28:24 2021
+             6FA file pointer to symbol table
+              2C number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+      5D size of raw data
+      DC file pointer to raw data (000000DC to 00000138)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+RAW DATA #1
+  00000000: 20 20 20 2F 44 45 46 41 55 4C 54 4C 49 42 3A 22     /DEFAULTLIB:"
+  00000010: 75 75 69 64 2E 6C 69 62 22 20 2F 44 45 46 41 55  uuid.lib" /DEFAU
+  00000020: 4C 54 4C 49 42 3A 22 75 75 69 64 2E 6C 69 62 22  LTLIB:"uuid.lib"
+  00000030: 20 2F 44 45 46 41 55 4C 54 4C 49 42 3A 22 4C 49   /DEFAULTLIB:"LI
+  00000040: 42 43 4D 54 22 20 2F 44 45 46 41 55 4C 54 4C 49  BCMT" /DEFAULTLI
+  00000050: 42 3A 22 4F 4C 44 4E 41 4D 45 53 22 20           B:"OLDNAMES" 
+
+   Linker Directives
+   -----------------
+   /DEFAULTLIB:uuid.lib
+   /DEFAULTLIB:uuid.lib
+   /DEFAULTLIB:LIBCMT
+   /DEFAULTLIB:OLDNAMES
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+      B8 size of raw data
+     139 file pointer to raw data (00000139 to 000001F0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #2
+  00000000: 04 00 00 00 F1 00 00 00 AB 00 00 00 6D 00 01 11  ....ñ...«...m...
+  00000010: 00 00 00 00 43 3A 5C 4D 79 50 72 6F 6A 65 63 74  ....C:\MyProject
+  00000020: 73 5C 30 31 2D 57 69 6E 33 32 5C 30 39 2D 44 4C  s\01-Win32\09-DL
+  00000030: 4C 5C 30 31 2D 4C 69 6E 6B 69 6E 67 5C 30 32 2D  L\01-Linking\02-
+  00000040: 45 78 70 6C 69 63 69 74 5C 45 78 65 63 75 74 69  Explicit\Executi
+  00000050: 6F 6E 20 75 73 69 6E 67 20 6E 65 77 20 64 6C 6C  on using new dll
+  00000060: 20 2D 20 55 73 69 6E 67 44 65 66 46 69 6C 65 5C   - UsingDefFile\
+  00000070: 57 69 6E 64 6F 77 2E 6F 62 6A 00 3A 00 3C 11 01  Window.obj.:.<..
+  00000080: 22 00 00 07 00 13 00 1D 00 56 75 01 00 13 00 1D  "........Vu.....
+  00000090: 00 56 75 01 00 4D 69 63 72 6F 73 6F 66 74 20 28  .Vu..Microsoft (
+  000000A0: 52 29 20 4F 70 74 69 6D 69 7A 69 6E 67 20 43 6F  R) Optimizing Co
+  000000B0: 6D 70 69 6C 65 72 00 00                          mpiler..
+
+SECTION HEADER #3
+  .rdata name
+       0 physical address
+       0 virtual address
+      A9 size of raw data
+     1F1 file pointer to raw data (000001F1 to 00000299)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40300040 flags
+         Initialized Data
+         4 byte align
+         Read Only
+
+RAW DATA #3
+  00000000: 4D 65 73 73 61 67 65 00 4D 79 57 69 6E 64 6F 77  Message.MyWindow
+  00000010: 00 00 00 00 47 41 50 20 3A 20 4D 79 20 46 69 72  ....GAP : My Fir
+  00000020: 73 74 20 57 69 6E 64 6F 77 00 00 00 4D 79 4D 61  st Window...MyMa
+  00000030: 74 68 2E 64 6C 6C 00 00 45 52 52 4F 52 00 00 00  th.dll..ERROR...
+  00000040: 4C 6F 61 64 20 6C 69 62 72 61 72 79 20 66 61 69  Load library fai
+  00000050: 6C 65 64 00 4D 61 6B 65 43 75 62 65 00 00 00 00  led.MakeCube....
+  00000060: 45 52 52 4F 52 00 00 00 4D 61 6B 65 43 75 62 65  ERROR...MakeCube
+  00000070: 20 66 75 6E 63 74 69 6F 6E 20 61 64 64 72 65 73   function addres
+  00000080: 73 20 63 61 6E 6E 6F 74 20 62 65 20 6F 62 74 61  s cannot be obta
+  00000090: 69 6E 65 64 00 00 00 00 43 75 62 65 20 6F 66 20  ined....Cube of 
+  000000A0: 25 64 20 69 73 20 25 64 00                       %d is %d.
+
+SECTION HEADER #4
+.text$mn name
+       0 physical address
+       0 virtual address
+     2A8 size of raw data
+     29A file pointer to raw data (0000029A to 00000541)
+     542 file pointer to relocation table
+       0 file pointer to line numbers
+      28 number of relocations
+       0 number of line numbers
+60500020 flags
+         Code
+         16 byte align
+         Execute Read
+
+RAW DATA #4
+  00000000: 55 8B EC 83 EC 60 A1 00 00 00 00 33 C5 89 45 FC  U.ì.ì`¡....3Å.Eü
+  00000010: A1 00 00 00 00 89 45 F0 8B 0D 04 00 00 00 89 4D  ¡.....Eð.......M
+  00000020: F4 8A 15 08 00 00 00 88 55 F8 C7 45 BC 30 00 00  ô.......UøÇE¼0..
+  00000030: 00 C7 45 C0 03 00 00 00 C7 45 C4 00 00 00 00 C7  .ÇEÀ....ÇEÄ....Ç
+  00000040: 45 C8 00 00 00 00 C7 45 CC 00 00 00 00 8B 45 08  EÈ....ÇEÌ.....E.
+  00000050: 89 45 D0 68 00 7F 00 00 6A 00 FF 15 00 00 00 00  .EÐh....j.ÿ.....
+  00000060: 89 45 D4 68 00 7F 00 00 6A 00 FF 15 00 00 00 00  .EÔh....j.ÿ.....
+  00000070: 89 45 D8 6A 00 FF 15 00 00 00 00 89 45 DC 8D 4D  .EØj.ÿ......EÜ.M
+  00000080: F0 89 4D E4 C7 45 E0 00 00 00 00 68 00 7F 00 00  ð.MäÇEà....h....
+  00000090: 6A 00 FF 15 00 00 00 00 89 45 E8 8D 55 BC 52 FF  j.ÿ......Eè.U¼Rÿ
+  000000A0: 15 00 00 00 00 6A 00 8B 45 08 50 6A 00 6A 00 68  .....j..E.Pj.j.h
+  000000B0: 00 00 00 80 68 00 00 00 80 68 00 00 00 80 68 00  ....h....h....h.
+  000000C0: 00 00 80 68 00 00 CF 00 68 00 00 00 00 8D 4D F0  ...h..Ï.h.....Mð
+  000000D0: 51 6A 00 FF 15 00 00 00 00 89 45 EC 8B 55 14 52  Qj.ÿ......Eì.U.R
+  000000E0: 8B 45 EC 50 FF 15 00 00 00 00 8B 4D EC 51 FF 15  .EìPÿ......MìQÿ.
+  000000F0: 00 00 00 00 6A 00 6A 00 6A 00 8D 55 A0 52 FF 15  ....j.j.j..U.Rÿ.
+  00000100: 00 00 00 00 85 C0 74 16 8D 45 A0 50 FF 15 00 00  .....Àt..E.Pÿ...
+  00000110: 00 00 8D 4D A0 51 FF 15 00 00 00 00 EB D6 8B 45  ...M.Qÿ.....ëÖ.E
+  00000120: A8 8B 4D FC 33 CD E8 00 00 00 00 8B E5 5D C2 10  ¨.Mü3Íè.....å]Â.
+  00000130: 00 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC  .ÌÌÌÌÌÌÌÌÌÌÌÌÌÌÌ
+  00000140: 55 8B EC 81 EC 18 01 00 00 A1 00 00 00 00 33 C5  U.ì.ì....¡....3Å
+  00000150: 89 45 FC C7 85 F8 FE FF FF 00 00 00 00 C7 85 F4  .EüÇ.øþÿÿ....Ç.ô
+  00000160: FE FF FF 00 00 00 00 8B 45 0C 89 85 F0 FE FF FF  þÿÿ.....E...ðþÿÿ
+  00000170: 83 BD F0 FE FF FF 01 74 12 83 BD F0 FE FF FF 02  .½ðþÿÿ.t..½ðþÿÿ.
+  00000180: 0F 84 F4 00 00 00 E9 F7 00 00 00 68 00 00 00 00  ..ô...é÷...h....
+  00000190: FF 15 00 00 00 00 89 85 F8 FE FF FF 83 BD F8 FE  ÿ.......øþÿÿ.½øþ
+  000001A0: FF FF 00 75 20 6A 00 68 00 00 00 00 68 00 00 00  ÿÿ.u j.h....h...
+  000001B0: 00 8B 4D 08 51 FF 15 00 00 00 00 8B 55 08 52 FF  ..M.Qÿ......U.Rÿ
+  000001C0: 15 00 00 00 00 68 00 00 00 00 8B 85 F8 FE FF FF  .....h......øþÿÿ
+  000001D0: 50 FF 15 00 00 00 00 89 85 F4 FE FF FF 83 BD F4  Pÿ.......ôþÿÿ.½ô
+  000001E0: FE FF FF 00 75 20 6A 00 68 00 00 00 00 68 00 00  þÿÿ.u j.h....h..
+  000001F0: 00 00 8B 4D 08 51 FF 15 00 00 00 00 8B 55 08 52  ...M.Qÿ......U.R
+  00000200: FF 15 00 00 00 00 C7 85 EC FE FF FF 0F 00 00 00  ÿ.....Ç.ìþÿÿ....
+  00000210: 8B 85 EC FE FF FF 50 FF 95 F4 FE FF FF 83 C4 04  ..ìþÿÿPÿ.ôþÿÿ.Ä.
+  00000220: 89 85 E8 FE FF FF 8B 8D E8 FE FF FF 51 8B 95 EC  ..èþÿÿ..èþÿÿQ..ì
+  00000230: FE FF FF 52 68 00 00 00 00 8D 85 FC FE FF FF 50  þÿÿRh......üþÿÿP
+  00000240: FF 15 00 00 00 00 83 C4 10 6A 00 68 00 00 00 00  ÿ......Ä.j.h....
+  00000250: 8D 8D FC FE FF FF 51 8B 55 08 52 FF 15 00 00 00  ..üþÿÿQ.U.Rÿ....
+  00000260: 00 8B 85 F8 FE FF FF 50 FF 15 00 00 00 00 8B 4D  ...øþÿÿPÿ......M
+  00000270: 08 51 FF 15 00 00 00 00 EB 08 6A 00 FF 15 00 00  .Qÿ.....ë.j.ÿ...
+  00000280: 00 00 8B 55 14 52 8B 45 10 50 8B 4D 0C 51 8B 55  ...U.R.E.P.M.Q.U
+  00000290: 08 52 FF 15 00 00 00 00 8B 4D FC 33 CD E8 00 00  .Rÿ......Mü3Íè..
+  000002A0: 00 00 8B E5 5D C2 10 00                          ...å]Â..
+
+RELOCATIONS #4
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 00000007  DIR32                      00000000        29  ___security_cookie
+ 00000011  DIR32                      00000000         9  $SG90084
+ 0000001A  DIR32                      00000004         9  $SG90084
+ 00000023  DIR32                      00000008         9  $SG90084
+ 0000003B  DIR32                      00000000        27  ?WndProc@@YGJPAUHWND__@@IIJ@Z (long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long))
+ 0000005C  DIR32                      00000000        26  __imp__LoadIconA@8
+ 0000006C  DIR32                      00000000        25  __imp__LoadCursorA@8
+ 00000077  DIR32                      00000000        18  __imp__GetStockObject@4
+ 00000094  DIR32                      00000000        26  __imp__LoadIconA@8
+ 000000A1  DIR32                      00000000        1F  __imp__RegisterClassExA@4
+ 000000C9  DIR32                      00000000         A  $SG90085
+ 000000D5  DIR32                      00000000        20  __imp__CreateWindowExA@48
+ 000000E6  DIR32                      00000000        22  __imp__ShowWindow@8
+ 000000F0  DIR32                      00000000        23  __imp__UpdateWindow@4
+ 00000100  DIR32                      00000000        1A  __imp__GetMessageA@16
+ 0000010E  DIR32                      00000000        1B  __imp__TranslateMessage@4
+ 00000118  DIR32                      00000000        1C  __imp__DispatchMessageA@4
+ 00000127  REL32                      00000000        28  @__security_check_cookie@4
+ 0000014A  DIR32                      00000000        29  ___security_cookie
+ 0000018C  DIR32                      00000000         B  $SG90103
+ 00000192  DIR32                      00000000        16  __imp__LoadLibraryA@4
+ 000001A8  DIR32                      00000000         C  $SG90105
+ 000001AD  DIR32                      00000000         D  $SG90106
+ 000001B7  DIR32                      00000000        24  __imp__MessageBoxA@16
+ 000001C1  DIR32                      00000000        21  __imp__DestroyWindow@4
+ 000001C6  DIR32                      00000000         E  $SG90107
+ 000001D3  DIR32                      00000000        15  __imp__GetProcAddress@8
+ 000001E9  DIR32                      00000000         F  $SG90109
+ 000001EE  DIR32                      00000000        10  $SG90110
+ 000001F8  DIR32                      00000000        24  __imp__MessageBoxA@16
+ 00000202  DIR32                      00000000        21  __imp__DestroyWindow@4
+ 00000235  DIR32                      00000000        11  $SG90111
+ 00000242  DIR32                      00000000        19  __imp__wsprintfA
+ 0000024C  DIR32                      00000000         8  $SG90112
+ 0000025D  DIR32                      00000000        24  __imp__MessageBoxA@16
+ 0000026A  DIR32                      00000000        14  __imp__FreeLibrary@4
+ 00000274  DIR32                      00000000        21  __imp__DestroyWindow@4
+ 0000027E  DIR32                      00000000        1E  __imp__PostQuitMessage@4
+ 00000294  DIR32                      00000000        1D  __imp__DefWindowProcA@16
+ 0000029E  REL32                      00000000        28  @__security_check_cookie@4
+
+SECTION HEADER #5
+ .chks64 name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+     6D2 file pointer to raw data (000006D2 to 000006F9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+RAW DATA #5
+  00000000: C7 36 6A 9D 7F DA 0F E2 2F A4 B2 A4 3F 79 DC 11  Ç6j..Ú.â/¤²¤?yÜ.
+  00000010: 01 1B 1B 1B 41 80 38 87 B0 6F 99 58 FB E2 C3 FD  ....A.8.°o.XûâÃý
+  00000020: 00 00 00 00 00 00 00 00                          ........
+
+COFF SYMBOL TABLE
+000 01057556 ABS    notype       Static       | @comp.id
+001 80010191 ABS    notype       Static       | @feat.00
+002 00000000 SECT1  notype       Static       | .drectve
+    Section length   5D, #relocs    0, #linenums    0, checksum        0
+004 00000000 SECT2  notype       Static       | .debug$S
+    Section length   B8, #relocs    0, #linenums    0, checksum        0
+006 00000000 SECT3  notype       Static       | .rdata
+    Section length   A9, #relocs    0, #linenums    0, checksum 355F432D
+008 00000000 SECT3  notype       Static       | $SG90112
+009 00000008 SECT3  notype       Static       | $SG90084
+00A 00000014 SECT3  notype       Static       | $SG90085
+00B 0000002C SECT3  notype       Static       | $SG90103
+00C 00000038 SECT3  notype       Static       | $SG90105
+00D 00000040 SECT3  notype       Static       | $SG90106
+00E 00000054 SECT3  notype       Static       | $SG90107
+00F 00000060 SECT3  notype       Static       | $SG90109
+010 00000068 SECT3  notype       Static       | $SG90110
+011 00000098 SECT3  notype       Static       | $SG90111
+012 00000000 SECT4  notype       Static       | .text$mn
+    Section length  2A8, #relocs   28, #linenums    0, checksum 7DE437B6
+014 00000000 UNDEF  notype       External     | __imp__FreeLibrary@4
+015 00000000 UNDEF  notype       External     | __imp__GetProcAddress@8
+016 00000000 UNDEF  notype       External     | __imp__LoadLibraryA@4
+017 00000000 SECT4  notype ()    External     | _WinMain@16
+018 00000000 UNDEF  notype       External     | __imp__GetStockObject@4
+019 00000000 UNDEF  notype       External     | __imp__wsprintfA
+01A 00000000 UNDEF  notype       External     | __imp__GetMessageA@16
+01B 00000000 UNDEF  notype       External     | __imp__TranslateMessage@4
+01C 00000000 UNDEF  notype       External     | __imp__DispatchMessageA@4
+01D 00000000 UNDEF  notype       External     | __imp__DefWindowProcA@16
+01E 00000000 UNDEF  notype       External     | __imp__PostQuitMessage@4
+01F 00000000 UNDEF  notype       External     | __imp__RegisterClassExA@4
+020 00000000 UNDEF  notype       External     | __imp__CreateWindowExA@48
+021 00000000 UNDEF  notype       External     | __imp__DestroyWindow@4
+022 00000000 UNDEF  notype       External     | __imp__ShowWindow@8
+023 00000000 UNDEF  notype       External     | __imp__UpdateWindow@4
+024 00000000 UNDEF  notype       External     | __imp__MessageBoxA@16
+025 00000000 UNDEF  notype       External     | __imp__LoadCursorA@8
+026 00000000 UNDEF  notype       External     | __imp__LoadIconA@8
+027 00000140 SECT4  notype ()    External     | ?WndProc@@YGJPAUHWND__@@IIJ@Z (long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long))
+028 00000000 UNDEF  notype ()    External     | @__security_check_cookie@4
+029 00000000 UNDEF  notype       External     | ___security_cookie
+02A 00000000 SECT5  notype       Static       | .chks64
+    Section length   28, #relocs    0, #linenums    0, checksum        0
+
+String Table Size = 0x1F7 bytes
+
+  Summary
+
+          28 .chks64
+          B8 .debug$S
+          5D .drectve
+          A9 .rdata
+         2A8 .text$mn
