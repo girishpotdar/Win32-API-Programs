@@ -1,5 +1,0 @@
-#include <Windows.h>
-#include "resource.h"
-
-MYICON ICON lighthouse.ico
-MYBITMAP BITMAP saturn.bmp
